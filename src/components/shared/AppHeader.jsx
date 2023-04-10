@@ -52,12 +52,14 @@ const AppHeader = () => {
 									src={logoDark}
 									className="w-36"
 									alt="Dark Logo"
+									style={{width: "50px", height: "50px"}}
 								/>
 							) : (
 								<img
 									src={logoLight}
 									className="w-36"
 									alt="Dark Logo"
+									style={{width: "50px", height: "50px"}}
 								/>
 							)}
 						</Link>
