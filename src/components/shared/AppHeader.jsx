@@ -9,7 +9,6 @@ import Button from "../reusable/Button";
 
 const AppHeader = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [showModal, setShowModal] = useState(false);
   const [activeTheme, setTheme] = useThemeSwitcher();
 
   function toggleMenu() {
@@ -19,7 +18,7 @@ const AppHeader = () => {
       setShowMenu(false);
     }
   }
-	
+
   return (
     <motion.nav
       initial={{ opacity: 0 }}
