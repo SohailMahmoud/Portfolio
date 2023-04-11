@@ -1,10 +1,10 @@
 export const aboutMeData = [
-	{
-		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-	},
-	{
-		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-	},
+  {
+    id: 1,
+    bio: "Web Developer passionate about building useful and valuable websites that have the balance between functional and aesthetic design. Well-versed in the required technical skills like HTML5, JavaScript, libraries and frameworks like React JS and version control programs to get the best look out of a product or service, with a strong skill set in verbal communication and co-operation.",
+  },
+  {
+    id: 2,
+    bio: "In addition to that, I also have a keen eye for detail and a passion for problem-solving. I enjoy collaborating with others and thrive in a team environment, where I can contribute my skills and learn from others to create exceptional websites.",
+  },
 ];
