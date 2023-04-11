@@ -19,21 +19,7 @@ const AppHeader = () => {
       setShowMenu(false);
     }
   }
-
-  function handleWhatsAppMe() {
-    if (!showModal) {
-      document
-        .getElementsByTagName("html")[0]
-        .classList.add("overflow-y-hidden");
-      setShowModal(true);
-    } else {
-      document
-        .getElementsByTagName("html")[0]
-        .classList.remove("overflow-y-hidden");
-      setShowModal(false);
-    }
-  }
-
+	
   return (
     <motion.nav
       initial={{ opacity: 0 }}
