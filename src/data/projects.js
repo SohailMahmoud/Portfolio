@@ -2,7 +2,7 @@
 import WebImage1 from "../images/web-project-1.jpg";
 import WebImage2 from "../images/web-project-2.jpg";
 import MobileImage1 from "../images/mobile-project-1.jpg";
-import MobileImage2 from "../images/mobile-project-2.jpg";
+import MobileImage2 from "../images/react-quiz-3.jpg";
 import UIImage1 from "../images/capstone-project-1.jpg";
 import UIImage2 from "../images/ui-project-2.jpg";
 
@@ -15,8 +15,8 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Phoenix Digital Agency",
-    category: "Mobile Application",
+    title: "React Quiz with TypeScript",
+    category: "Frontend",
     img: MobileImage2,
   },
   {
