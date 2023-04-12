@@ -101,7 +101,7 @@ export const singleProjectData = {
           id: 1,
           details:
             "Instead of using Vanilla JavaScript, I used TypeScript which is better than JavaScript in terms of language features, reference validation, project scalability, collaboration within and between teams, developer experience, and code maintainability. The quiz is counting your score and also telling the user whether his/her answer is right or wrong. In addition to that, I used Material UI, which is a famous react component library",
-          url: "https://main--jocular-kitsune-979dd9.netlify.app/",
+          url: "https://react-quiz-ts.netlify.app/",
         },
       ],
     },
