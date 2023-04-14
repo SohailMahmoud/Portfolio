@@ -88,6 +88,22 @@ const ReactQuiz = () => {
                     {details.details}
                   </p>
                 );
+              } else if (details.codeUrl) {
+                return (
+                  <p
+                    key={details.id}
+                    className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+                  >
+                    {details.details}
+                    <br></br>
+                    <br></br>
+                    Click{" "}
+                    <a href={details.codeUrl} style={{ color: "blue" }}>
+                      here
+                    </a>{" "}
+                    to see the code.
+                  </p>
+                );
               } else {
                 return (
                   <p

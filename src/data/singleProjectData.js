@@ -5,6 +5,9 @@ import Image3 from "../images/capstone-project-3.jpg";
 import reactQuiz1 from "../images/react-quiz-1.jpg";
 import reactQuiz2 from "../images/react-quiz-2.jpg";
 import reactQuiz3 from "../images/react-quiz-3.jpg";
+import taskManager1 from "../images/task-manger-1.jpg"
+import taskManager2 from "../images/task-manger-2.jpg"
+import taskManager3 from "../images/task-manger-3.jpg"
 
 export const singleProjectData = {
   capstoneProject: {
@@ -102,6 +105,49 @@ export const singleProjectData = {
           details:
             "Instead of using Vanilla JavaScript, I used TypeScript which is better than JavaScript in terms of language features, reference validation, project scalability, collaboration within and between teams, developer experience, and code maintainability. The quiz is counting your score and also telling the user whether his/her answer is right or wrong. In addition to that, I used Material UI, which is a famous react component library",
           url: "https://react-quiz-ts.netlify.app/",
+        },
+      ],
+    },
+  },
+  taskManager: {
+    ProjectHeader: {
+      title: "Task Manager",
+      publishDate: "Mar 25, 2023",
+      tags: "Fullstack Application",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Home page",
+        img: taskManager1,
+      },
+      {
+        id: 2,
+        title: "Edit a task",
+        img: taskManager2,
+      },
+      {
+        id: 3,
+        title: "Adding a new task",
+        img: taskManager3,
+      },
+    ],
+    ProjectInfo: {
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails: "A fullstack task manager application created by Node JS, Express JS and MongoDB",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["HTML5", "CSS", "JavaScript", "Node JS", "Express JS", "MongoDB"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "Instead of using Vanilla JavaScript, I used TypeScript which is better than JavaScript in terms of language features, reference validation, project scalability, collaboration within and between teams, developer experience, and code maintainability. The quiz is counting your score and also telling the user whether his/her answer is right or wrong. In addition to that, I used Material UI, which is a famous react component library",
+          codeUrl: "https://github.com/SohailMahmoud/Task-Manager",
         },
       ],
     },
