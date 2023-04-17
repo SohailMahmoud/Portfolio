@@ -14,6 +14,10 @@ const ProjectSingle = ({ title, category, image }) => {
       routeTo = "reactQuiz";
       break;
 
+    case "Task Manager with Node JS":
+      routeTo = "taskManagerProject";
+      break;
+
     default:
       routeTo = "/";
   }

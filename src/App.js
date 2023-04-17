@@ -13,6 +13,7 @@ const Home = lazy(() => import("./pages/Home"));
 const Projects = lazy(() => import("./pages/Projects"));
 const CapstoneProject = lazy(() => import("./pages/CapstoneProject.jsx"));
 const ReactQuiz = lazy(() => import("./pages/ReactQuiz.jsx"));
+const TaskManagerProject = lazy(() => import("./pages/TaskManagerProject"));
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
               <Route path="projects" element={<Projects />} />
               <Route path="capstoneProject" element={<CapstoneProject />} />
               <Route path="reactQuiz" element={<ReactQuiz />} />
-
+              <Route path="taskManagerProject" element={<TaskManagerProject />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
             </Routes>

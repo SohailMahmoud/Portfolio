@@ -1,6 +1,6 @@
 // Import images
 import WebImage1 from "../images/web-project-1.jpg";
-import WebImage2 from "../images/web-project-2.jpg";
+import taskManager1 from "../images/task-manger-1.jpg";
 import MobileImage1 from "../images/mobile-project-1.jpg";
 import MobileImage2 from "../images/react-quiz-3.jpg";
 import UIImage1 from "../images/capstone-project-1.jpg";
@@ -21,14 +21,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Google Health Platform",
-    category: "Web Application",
-    img: WebImage2,
-    ProjectHeader: {
-      title: "Project Management UI - From Context",
-      publishDate: "Jul 26, 2021",
-      tags: "UI / Frontend",
-    },
+    title: "Task Manager with Node JS",
+    category: "Fullstack Application",
+    img: taskManager1,
   },
   {
     id: 4,
