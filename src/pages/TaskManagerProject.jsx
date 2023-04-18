@@ -62,10 +62,7 @@ const TaskManagerProject = () => {
           {/* Single project technologies */}
           <div className="mb-7">
             <p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-              {
-                singleProjectData.taskManager.ProjectInfo.Technologies[0]
-                  .title
-              }
+              {singleProjectData.taskManager.ProjectInfo.Technologies[0].title}
             </p>
             <p className="font-general-regular text-primary-dark dark:text-ternary-light">
               {singleProjectData.taskManager.ProjectInfo.Technologies[0].techs.join(
@@ -78,14 +75,11 @@ const TaskManagerProject = () => {
         {/*  Single project right section */}
         <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
           <p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-            {
-              singleProjectData.taskManager.ProjectInfo
-                .ProjectDetailsHeading
-            }
+            {singleProjectData.taskManager.ProjectInfo.ProjectDetailsHeading}
           </p>
           {singleProjectData.taskManager.ProjectInfo.ProjectDetails.map(
             (details) => {
-              if (!details.url) {
+              if (!details.codeUrl) {
                 return (
                   <p
                     key={details.id}
@@ -104,10 +98,10 @@ const TaskManagerProject = () => {
                     <br></br>
                     <br></br>
                     Click{" "}
-                    <a href={details.url} style={{ color: "blue" }}>
+                    <a href={details.codeUrl} style={{ color: "blue" }}>
                       here
                     </a>{" "}
-                    to visit the website.
+                    to see the code.
                   </p>
                 );
               }
